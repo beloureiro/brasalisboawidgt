@@ -13,7 +13,7 @@ body {
     display: inline-block;
     padding: 10px;
     border-radius: 8px; /* Bordas ligeiramente arredondadas */
-    color: #c92e1a; /* Vermelho */
+    color: #ddccb2; /* marrom claro */
     text-decoration: none;
     font-size: 24px;
     background-color: transparent; /* Fundo transparente para os ícones */
@@ -72,6 +72,6 @@ body {
 }
 
 .language:hover {
-    background-color: #c92e1a; /* Fundo vermelho no hover */
+    background-color: #ddccb2; /* Fundo marrom claro */
     color: #000000; /* Texto preto no hover */
 }
