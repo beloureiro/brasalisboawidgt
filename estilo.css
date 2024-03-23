@@ -50,7 +50,7 @@ body {
     left: 50%;
     width: 8px; /* Tamanho do ponto */
     height: 8px; /* Tamanho do ponto */
-    background-color: #c92e1a; /* Cor do ponto */
+    background-color: #ddccb2; /* marrom claro */
     border-radius: 50%; /* Torna o ponto redondo */
     transform: translate(-50%, -50%); /* Centraliza o ponto exatamente */
 }
@@ -61,7 +61,7 @@ body {
     display: flex;
     align-items: center; /* Alinha o ícone e o texto verticalmente */
     justify-content: center; /* Centraliza horizontalmente */
-    color: #c92e1a; /* Cor do texto para os seletores de idioma */
+    color: #ddccb2; /* marrom claro */
     background-color: transparent; /* Fundo transparente para os seletores de idioma */
     text-decoration: none; /* Remove sublinhado dos links */
 }
