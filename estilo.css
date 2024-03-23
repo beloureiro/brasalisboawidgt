@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: transparent; /* Fundo transparente */
+}
+
+.widget-contato {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icone {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px; /* Bordas ligeiramente arredondadas */
+    color: #c92e1a; /* Vermelho */
+    text-decoration: none;
+    font-size: 24px;
+    background-color: transparent; /* Fundo transparente para os ícones */
+}
+
+.icone:hover {
+    background-color: #c92e1a; /* Fundo vermelho no hover */
+    color: #000000; /* Ícone/texto preto no hover */
+}
+
+.language-selector {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    position: relative; /* Para posicionar a linha e o ponto divisórios corretamente */
+    padding-top: 30px; /* Espaçamento acima dos seletores de idioma para a linha */
+}
+
+.language-selector::before {
+    content: '';
+    position: absolute;
+    top: 10px; /* Linha no topo do padding dos seletores de idioma */
+    left: 0;
+    right: 0;
+    height: 1px; /* Define a espessura da linha */
+    background-color: #c92e1a; /* Cor da linha */
+    z-index: -1; /* Garante que a linha não cubra os ícones ou texto */
+}
+
+.language-selector::after {
+    content: '';
+    position: absolute;
+    top: 10.5px; /* Centraliza o ponto na espessura da linha */
+    left: 50%;
+    width: 8px; /* Tamanho do ponto */
+    height: 8px; /* Tamanho do ponto */
+    background-color: #c92e1a; /* Cor do ponto */
+    border-radius: 50%; /* Torna o ponto redondo */
+    transform: translate(-50%, -50%); /* Centraliza o ponto exatamente */
+}
+
+.language {
+    font-size: 16px; /* Reduz o tamanho da fonte */
+    padding: 8px 10px; /* Ajuste do padding para melhor acomodar o texto */
+    display: flex;
+    align-items: center; /* Alinha o ícone e o texto verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    color: #c92e1a; /* Cor do texto para os seletores de idioma */
+    background-color: transparent; /* Fundo transparente para os seletores de idioma */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+.language i {
+    margin-right: 5px; /* Adiciona espaço entre o ícone e o texto */
+    color: inherit; /* Os ícones herdam a cor do texto do seletor de idioma */
+}
+
+.language:hover {
+    background-color: #c92e1a; /* Fundo vermelho no hover */
+    color: #000000; /* Texto preto no hover */
+}
