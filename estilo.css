@@ -13,15 +13,14 @@ body {
     display: inline-block;
     padding: 10px;
     border-radius: 8px; /* Bordas ligeiramente arredondadas */
-    color: #ddccb2; /* marrom claro */
+    color: #cf0010; /* vermelho */
     text-decoration: none;
     font-size: 24px;
     background-color: transparent; /* Fundo transparente para os ícones */
 }
 
 .icone:hover {
-    background-color: #c92e1a; /* Fundo vermelho no hover */
-    color: #000000; /* Ícone/texto preto no hover */
+   color: #9c000c; /* Ícone/texto vermelho escuro no hover */
 }
 
 .language-selector {
@@ -39,7 +38,7 @@ body {
     left: 0;
     right: 0;
     height: 1px; /* Define a espessura da linha */
-    background-color: #c92e1a; /* Cor da linha */
+    background-color:  #ddccb2; /* marrom claro - Cor da linha */
     z-index: -1; /* Garante que a linha não cubra os ícones ou texto */
 }
 
@@ -50,7 +49,7 @@ body {
     left: 50%;
     width: 8px; /* Tamanho do ponto */
     height: 8px; /* Tamanho do ponto */
-    background-color: #ddccb2; /* marrom claro */
+    background-color: #cf0010; /* vermelho */
     border-radius: 50%; /* Torna o ponto redondo */
     transform: translate(-50%, -50%); /* Centraliza o ponto exatamente */
 }
@@ -61,7 +60,7 @@ body {
     display: flex;
     align-items: center; /* Alinha o ícone e o texto verticalmente */
     justify-content: center; /* Centraliza horizontalmente */
-    color: #ddccb2; /* marrom claro */
+    color: #cf0010; /* vermelho */
     background-color: transparent; /* Fundo transparente para os seletores de idioma */
     text-decoration: none; /* Remove sublinhado dos links */
 }
@@ -72,6 +71,6 @@ body {
 }
 
 .language:hover {
-    background-color: #ddccb2; /* Fundo marrom claro */
-    color: #000000; /* Texto preto no hover */
+    
+    color: #9c000c; /* Texto veremlhor escuro no hover */
 }
