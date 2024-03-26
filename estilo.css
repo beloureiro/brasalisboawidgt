@@ -13,7 +13,7 @@ body {
     display: inline-block;
     padding: 10px;
     border-radius: 8px; /* Bordas ligeiramente arredondadas */
-    color: #cf0010; /* vermelho */
+    color: #ffffff; /* branco - cor dos incones */
     text-decoration: none;
     font-size: 24px;
     background-color: transparent; /* Fundo transparente para os ícones */
@@ -60,7 +60,7 @@ body {
     display: flex;
     align-items: center; /* Alinha o ícone e o texto verticalmente */
     justify-content: center; /* Centraliza horizontalmente */
-    color: #cf0010; /* vermelho */
+    color: #ffffff; /* branco cor dos textos */
     background-color: transparent; /* Fundo transparente para os seletores de idioma */
     text-decoration: none; /* Remove sublinhado dos links */
 }
