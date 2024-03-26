@@ -38,7 +38,7 @@ body {
     left: 0;
     right: 0;
     height: 1px; /* Define a espessura da linha */
-    background-color:  #ddccb2; /* marrom claro - Cor da linha */
+    background-color:  #ffffff; /* branco - Cor da linha */
     z-index: -1; /* Garante que a linha não cubra os ícones ou texto */
 }
 
